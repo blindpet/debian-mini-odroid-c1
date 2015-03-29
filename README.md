@@ -3,6 +3,8 @@ debian-mini-odroid-c1
 
 Script to build a minimal Debian sd card image.  If you are looking for a minimal Debian image with read-only root file system, look [here](https://github.com/tomuta/debian-mini-ro-root-odroid-c1).
 
+I added odroid utility so it is there from start to help expand the sd card hopefully
+
 ## Features:
 * SSH root login password: odroid
 * Host name: odroidc1-MACADDRESS (e.g. odroidc1-1a2b3c4d5e6f)
