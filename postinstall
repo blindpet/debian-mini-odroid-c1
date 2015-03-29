@@ -55,6 +55,14 @@ fi
 # Re-enable services to start
 rm /usr/sbin/policy-rc.d
 
+#install git and grab the odroid utility
+apt-get install git nano -y
+
+wget -O /usr/local/bin/odroid-utility.sh https://raw.githubusercontent.com/mdrjr/odroid-utility/master/odroid-utility.sh
+
+chmod +x /usr/local/bin/odroid-utility.sh
+
+
 # Cleanup
 apt-get clean
 
